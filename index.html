@@ -30,7 +30,7 @@
                 My doctoral work centers on control and optimization, where I enjoy both the theory behind control systems and the practical skills needed for high-performance optimization-based control.
                 </p>
                 <p>
-                  This website serves as a repository for my research work. While I will no longer be actively writing academic papers, I might continue sharing my personal, non-confidential notes on control and optimization here.
+                This website serves as a repository for my research work. While I will no longer be actively writing academic papers, I might continue sharing my personal, non-confidential notes on control and optimization here.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:twankim@uw.edu">Email</a> &nbsp;/&nbsp;
@@ -47,7 +47,7 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
+              <td style="padding:0px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
                   My work is in computational control. Specifically, I focus on formulating problems using robust control theory and computing trajectories, controlled invariant funnels, and feedback controllers using convex and nonconvex optimization methods. The list below contains some of my work. The full list is given in my <a href="https://scholar.google.com/citations?user=ligcQBwAAAAJ&hl=en&oi=sra">Google Scholar</a>.
@@ -55,8 +55,16 @@
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+        <td style="padding:0px;width:100%;vertical-align:middle">
+            <h3>Synthesis of trajectory, funnel, and feedback control</h3>
+        </td>
+      </tr>
+    </tbody></table>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
     <tr onmouseout="bog_stop()" onmouseover="bog_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
@@ -132,7 +140,7 @@
         <br>
         <em>International Journal of Robust and Nonlinear Control</em>, 2024
         <br>
-        <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/rnc.7186">Paper</a>
+        <a href="https://arxiv.org/abs/2209.03535">arXiv</a>
         /
         <a href="https://github.com/taewankim1/joint_synthesis">Github</a>
         <p></p>
@@ -176,7 +184,7 @@
         <br>
         <em>IEEE Control Systems Letters</em>, 2023
         <br>
-        <a href="https://ieeexplore.ieee.org/abstract/document/10167750">Paper</a>
+        <a href="https://arxiv.org/abs/2303.10504">arXiv</a>
         /
         <a href="https://github.com/taewankim1/funnel_synthesis_multiple_shooting">Github</a>
         <p></p>
@@ -186,6 +194,18 @@
         </p>
       </td>
     </tr>
+
+    </tbody></table>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+        <td style="padding:0px;width:100%;vertical-align:middle">
+          <h3>Application of trajectory optimization for autonomous vehicles</h3>
+        </td>
+      </tr>
+    </tbody></table>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
     <tr onmouseout="bog_stop()" onmouseover="bog_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
@@ -232,49 +252,97 @@
       </td>
     </tr>
 
-
-    <!-- <tr onmouseout="cat4d_stop()" onmouseover="cat4d_start()" bgcolor="#ffffd0">
+    <tr onmouseout="bog_stop()" onmouseover="bog_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='cat4d_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/cat4d.mp4" type="video/mp4">
+          <div class="two" id='decoupled_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/website_decoupled.jpg" type="video/mp4">
           Your browser does not support the video tag.
+
           </video></div>
-          <img src='images/cat4d.jpg' width="160">
+          <img src='images/website_decoupled.jpg' width="160">
         </div>
         <script type="text/javascript">
-          function cat4d_start() {
-            document.getElementById('cat4d_image').style.opacity = "1";
+          function bolt3d_start() {
+            document.getElementById('decoupled_image').style.opacity = "1";
           }
 
-          function cat4d_stop() {
-            document.getElementById('cat4d_image').style.opacity = "0";
+          function bolt3d_stop() {
+            document.getElementById('decoupled_image').style.opacity = "0";
           }
-          cat4d_stop()
+          bolt3d_stop()
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://cat-4d.github.io/">
-			<span class="papertitle">CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models
-</span>
+        <a href="https://ieeexplore.ieee.org/document/10644642">
+          <span class="papertitle">Decoupled Trajectory Planning for Monitoring UAVs and UGV Carrier by Reachable Sets</span>
         </a>
         <br>
-				<a href="https://www.cs.columbia.edu/~rundi/">Rundi Wu</a>,
-				<a href="https://ruiqigao.github.io/">Ruiqi Gao</a>,
-				<a href="https://poolio.github.io/">Ben Poole</a>,
-				<a href="https://alextrevithick.github.io/">Alex Trevithick</a>,
-				<a href="https://www.cs.columbia.edu/~cxz/index.htm/">Changxi Zheng</a>,
-				<strong>Jonathan T. Barron</strong>,
-				<a href="https://holynski.org/">Aleksander Holynski</a>
+        <strong>Taewan Kim</strong>,
+        <a href="https://www.merl.com/people/vinod">Abraham P. Vinod</a>,
+        <a href="https://www.merl.com/people/dicairano">Stefano Di Cairano</a>
         <br>
-        <em>CVPR</em>, 2025 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+        <em>Americal Control Conference, 2024</em>
         <br>
-        <a href="https://cat-4d.github.io/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2411.18613">arXiv</a>
+        <a href="https://www.merl.com/publications/docs/TR2024-092.pdf">Paper</a>
         <p></p>
         <p>
-				An approach for turning a video into a 4D radiance field that can be rendered in real-time. When combined with a text-to-video model, this enables text-to-4D.
+          This work addresses trajectory planning for UAVs and their UGV carrier with operational constraints, such as UAV battery limitations and coordination requirements.
+        </p>
+      </td>
+    </tr>
+
+    </tbody></table>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+        <td style="padding:0px;width:100%;vertical-align:middle">
+            <h3>Policy Optimization Guided by Optimal Control</h3>
+        </td>
+      </tr>
+    </tbody></table>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr onmouseout="bog_stop()" onmouseover="bog_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='acc2022_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/website_acc.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+
+          </video></div>
+          <img src='images/website_acc.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function bolt3d_start() {
+            document.getElementById('acc2022_image').style.opacity = "1";
+          }
+
+          function bolt3d_stop() {
+            document.getElementById('acc2022_image').style.opacity = "0";
+          }
+          bolt3d_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/document/9867151">
+          <span class="papertitle">Guided Policy Search using Sequential Convex Programming for Initialization of Trajectory Optimization Algorithms</span>
+        </a>
+        <br>
+        <strong>Taewan Kim</strong>,
+        <a href="https://www.merl.com/people/elango">Purnanand Elango</a>,
+        <a href="https://www.malyuta.name">Danylo Malyuta</a>,
+        <a href="https://www.aa.washington.edu/facultyfinder/behcet-acikmese">Behcet Acikmese</a>
+        <br>
+        <em>Americal Control Conference, 2022</em>
+        <br>
+        <a href="https://arxiv.org/abs/2110.06975">arXiv</a>
+        /
+        <a href="https://youtu.be/xa_dqaMsbRw?si=dCOkbJilKUV4Z3h0">Video</a>
+        <p></p>
+        <p>
+          This work trains neural network policies for initializing trajectory optimization methods. The approach combines guided policy search with sequential convex programming for improved constraint satisfaction.
         </p>
       </td>
     </tr>
@@ -282,144 +350,49 @@
     <tr onmouseout="bog_stop()" onmouseover="bog_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='bog_image'><video  width=100% muted autoplay loop>
-          <source src="images/bog.jpg" type="video/mp4">
+          <div class="two" id='gps_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/website_GPS.jpg" type="video/mp4">
           Your browser does not support the video tag.
+
           </video></div>
-          <img src='images/bog.jpg' width=100%>
+          <img src='images/website_GPS.jpg' width="160">
         </div>
         <script type="text/javascript">
-          function bog_start() {
-            document.getElementById('bog_image').style.opacity = "1";
+          function bolt3d_start() {
+            document.getElementById('gps_image').style.opacity = "1";
           }
 
-          function bog_stop() {
-            document.getElementById('bog_image').style.opacity = "0";
+          function bolt3d_stop() {
+            document.getElementById('gps_image').style.opacity = "0";
           }
-          bog_stop()
+          bolt3d_stop()
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://creiser.github.io/binary_opacity_grid/">
-          <span class="papertitle">Binary Opacity Grids: Capturing Fine Geometric Detail for Mesh-Based View Synthesis
-</span>
+        <a href="https://ieeexplore.ieee.org/document/8593843">
+          <span class="papertitle">Vision-based Target Tracking for a Skid-steer Vehicle using Guided Policy Search with Field-of-view Constraint</span>
         </a>
         <br>
-				<a href="https://creiser.github.io/">Christian Reiser</a>,
-				<a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-				<a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-				<a href="https://dorverbin.github.io/">Dor Verbin</a>,
-				<a href="https://szeliski.org/RichardSzeliski.htm">Richard Szeliski</a>,
-				<a href="https://bmild.github.io/">Ben Mildenhall</a>,
-				<strong>Jonathan T. Barron</strong>,
-				<a href="https://phogzone.com/">Peter Hedman</a>*,
-				<a href="https://www.cvlibs.net/">Andreas Geiger</a>*		
+        <strong>Taewan Kim</strong>,
+        Chungkeun Lee,
+        Hoseong Seo,
+        Seungwon Choi,
+        Wonchul Kim,
+        <a href="https://larr.snu.ac.kr">H. Jin Kim</a>
         <br>
-        <em>SIGGRAPH</em>, 2024
+        <em>International Conference on Intelligent Robots and Systems, 2018</em>
         <br>
-        <a href="https://creiser.github.io/binary_opacity_grid/">project page</a>
-        /
-        <a href="https://www.youtube.com/watch?v=2TPUmGRg8bM">video</a>
-        /
-        <a href="https://arxiv.org/abs/2402.12377">arXiv</a>
+        <a href="https://youtu.be/eYO_JylNvzI?si=CUYRcpEgYltmKgsd">Video</a>
         <p></p>
         <p>
-        Applying anti-aliasing to a discrete opacity grid lets you render a hard representation into a soft image, and this enables highly-detailed mesh recovery.
+          Training an end-to-end policy with guided policy search for target tracking. In hindsight, I don’t think end-to-end was the most suitable approach for this task, but it was an interesting exploration.
         </p>
       </td>
-    </tr> -->
+    </tr>
 
-          </tbody></table>
+    </tbody></table>
 
           
-					<!-- <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
-            <tr>
-              <td>
-                <h2>Miscellanea</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            
-           
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #fcb97d;">
-								 <h2>Micropapers</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
-                <br>
-                <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
-                <br>
-                <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
-                <br>
-                <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
-              </td>
-            </tr>
-
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #aaba9e;">
-								 <h2>Recorded Talks</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://www.youtube.com/watch?v=hFlF33JZbA0">Radiance Fields and the Future of Generative Media, 2025</a><br>				  
-                <a href="https://www.youtube.com/watch?v=h9vq_65eDas">View Dependent Podcast, 2024</a><br>
-                <a href="https://www.youtube.com/watch?v=4tDhYsFuEqo">Bay Area Robotics Symposium, 2023
-</a><br>
-                <a href="https://youtu.be/TvWkwDYtBP4?t=7604">EGSR Keynote, 2021</a><br>
-				<a href="https://www.youtube.com/watch?v=nRyOzHpcr4Q">TUM AI Lecture Series, 2020</a><br>
-				<a href="https://www.youtube.com/watch?v=HfJpQCBTqZs">Vision & Graphics Seminar at MIT, 2020</a>
-              </td>
-            </tr>
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #c6b89e;">
-								 <h2>Academic Service</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://iccv.thecvf.com/">Lead Area Chair, ICCV 2025</a>
-                <br>
-                <a href="https://cvpr.thecvf.com/Conferences/2025/Organizers">Lead Area Chair, CVPR 2025</a>
-                <br>
-                <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
-                <br>
-                <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>
-                <br>
-                <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
-                <br>
-                <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>
-                <br>
-                <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-                <br>
-                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
-              </td>
-            </tr>
-						
-						
-           
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #edd892;">
-								 <h2>Teaching</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
-                <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-                <br>
-                <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
-              </td>
-            </tr>
-            
-          </tbody></table> -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:0px">
